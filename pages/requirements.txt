@@ -1,0 +1,4 @@
+dill==0.3.7
+streamlit==1.28.1
+nltk==3.8.1
+
