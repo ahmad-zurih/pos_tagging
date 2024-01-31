@@ -3,7 +3,7 @@ from nltk.tokenize import word_tokenize
 import dill
 from io import StringIO
 
-nltk.download("punkt")
+nltk.download('punkt')
 
 with open('hmm_tagger.pkl', 'rb') as f:
     loaded_tagger = dill.load(f)
